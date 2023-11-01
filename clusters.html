@@ -13969,7 +13969,13 @@ a.anchor-link {
     </script>
     <!-- End of mathjax configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="-An%C3%A1lise-das-Varia%C3%A7%C3%B5es-de-Altura-de-Jogadores-da-NBA"><center> An&#225;lise das Varia&#231;&#245;es de Altura de Jogadores da NBA</center><a class="anchor-link" href="#-An%C3%A1lise-das-Varia%C3%A7%C3%B5es-de-Altura-de-Jogadores-da-NBA">&#182;</a></h2><h3 id="Introdu%C3%A7%C3%A3o">Introdu&#231;&#227;o<a class="anchor-link" href="#Introdu%C3%A7%C3%A3o">&#182;</a></h3><p>Nesta análise, explorei um conjunto de dados contendo informações sobre jogadores da NBA e seus atributos técnicos e físicos em diferentes temporadas. O objetivo era clusterizar o dataset e verificar como o algoritmo se comportava para agrupar os jogadores ao longo das temporadas.</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
@@ -14052,7 +14058,6 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="An%C3%A1lise-das-Varia%C3%A7%C3%B5es-de-Altura-de-Jogadores-da-NBA">An&#225;lise das Varia&#231;&#245;es de Altura de Jogadores da NBA<a class="anchor-link" href="#An%C3%A1lise-das-Varia%C3%A7%C3%B5es-de-Altura-de-Jogadores-da-NBA">&#182;</a></h2><h3 id="Introdu%C3%A7%C3%A3o">Introdu&#231;&#227;o<a class="anchor-link" href="#Introdu%C3%A7%C3%A3o">&#182;</a></h3><p>Nesta análise, explorei um conjunto de dados contendo informações sobre jogadores da NBA e seus atributos técnicos e físicos em diferentes temporadas. O objetivo era clusterizar o dataset e verificar como o algoritmo se comportava para agrupar os jogadores ao longo das temporadas.</p>
 <h3 id="Metodologia">Metodologia<a class="anchor-link" href="#Metodologia">&#182;</a></h3><p>Utilizei Python com as bibliotecas Pandas, Matplotlib, Seaborn e SKLearn para realizar a análise de dados. Os passos incluíram a identificação de jogadores com atributos técnicos e físicos diferentes e a criação de visualizações informativas.</p>
 <h2 id="Fun%C3%A7%C3%B5es-Personalizadas">Fun&#231;&#245;es Personalizadas<a class="anchor-link" href="#Fun%C3%A7%C3%B5es-Personalizadas">&#182;</a></h2><h3 id="data_info(data)"><code>data_info(data)</code><a class="anchor-link" href="#data_info(data)">&#182;</a></h3><p>Esta função retorna um DataFrame que contém informações sobre o conjunto de dados, incluindo o nome das variáveis, o total de valores ausentes, a porcentagem de valores ausentes, os tipos de dados e o número de valores únicos para cada variável. Ela é útil para uma análise inicial de qualidade dos dados.</p>
 <h3 id="optimal_number_of_clusters(wcss)"><code>optimal_number_of_clusters(wcss)</code><a class="anchor-link" href="#optimal_number_of_clusters(wcss)">&#182;</a></h3><p>Esta função ajuda a determinar o número ideal de clusters ao realizar análises de cluster usando o algoritmo K-Means. Ela utiliza o método do Cotovelo (Elbow Method) para encontrar o ponto de inflexão na curva de soma dos quadrados dentro do cluster (WCSS) e determinar o número apropriado de clusters.</p>
